@@ -1,0 +1,79 @@
+@mixin transform($property) {
+    -webkit-transform: $property;
+    -ms-transform: $property;
+    transform: $property;
+}
+
+.content3 {
+    display: flex;
+    margin-top: 100px;
+
+    &__info {
+        font-size: 30px;
+        font-weight: bold;
+        max-width: 40%;
+        line-height: 45px;
+    }
+
+    &__minor1 {
+        font-size: 15px;
+        font-weight: bold;
+        max-width: 50%;
+        line-height: 30px;
+        padding: 0;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+
+    &__minor2 {
+        font-size: 15px;
+        font-weight: bold;
+        max-width: 50%;
+        line-height: 30px;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+
+}
+
+.awards {
+    margin-top: 20px;
+
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    &__name {
+        text-align: start;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    &__type {
+        text-align: start;
+        flex-grow: 1;
+        margin: 0 10px;
+    }
+
+    &__product {
+        flex-grow: 1;
+        margin: 0 10px;
+        text-align: center;
+    }
+
+    &__details {
+        flex-grow: 1;
+        margin: 0 10px;
+    }
+
+    &__year {
+        flex-grow: 1;
+        margin: 0 10px;
+        text-align: end;
+    }
+
+
+}

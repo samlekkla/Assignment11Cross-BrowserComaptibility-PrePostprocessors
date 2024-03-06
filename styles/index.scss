@@ -1,0 +1,12 @@
+@use 'fonts';
+
+@import 'card';
+@import 'header';
+@import 'main';
+@import 'section';
+@import 'footer';
+
+
+body {
+    font-family: 'mulish';
+}

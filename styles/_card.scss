@@ -1,0 +1,28 @@
+@mixin transform($property) {
+	-webkit-transform: $property;
+    -ms-transform: $property;
+    transform: $property;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    margin: 0 auto;
+}
+
+.grid__container1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: auto;
+    width: 20px;
+    
+}
+
+.grid_element img {
+    width: auto;
+    height: auto;
+}
