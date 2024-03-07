@@ -3,17 +3,17 @@
     justify-content: center;
     flex-direction: column;
     min-height: 90vh;
-    background: white;
     margin: auto;
     max-width: 1110px;
     width: 100%;
-  
+
     &__heading {
         justify-content: flex-start;
         text-align: start;
         color: #4A4FF2;
-        font-size: 20px;
+        font-size: 25px;
         font-weight: bold;
+        margin-top: 10%;
     }
 
     &__info {
@@ -22,19 +22,19 @@
         width: 100%;
         font-weight: bold;
         line-height: 70px;
+        margin-bottom: 10px;
     }
 
     &__info2 {
         display: flex;
-        font-size: 17px;
         justify-content: flex-end;
-    }
-
-    &__info2 {
-        font-size: 17px;
-        margin-right: 20%;
+        font-size: 20px;
+        margin-right: 10%;
         text-align: start;
-        margin-bottom: 20px;
+        font-weight: lighter;
+        margin-bottom: 10%;
+        font-style: italic;
+
     }
 
     &__container1 {
@@ -43,5 +43,10 @@
         text-align: end;
         margin-bottom: 20px;
     }
- 
+
+.product-designer {
+        color: #4A4FF2;
+        
+    }
+
 }

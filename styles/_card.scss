@@ -17,15 +17,11 @@
 .grid__container1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(32, 1fr);
-    column-gap: auto;
-    max-width: 1110px;
-    width: 100%;
+    grid-template-rows: 5, max-content;
+    grid-gap: 0;
     
 }
 
 .grid__container1 img {
-    display: inline-flex;
-    width: 100%;
-    height: auto;
+    grid-gap: 0;
 }

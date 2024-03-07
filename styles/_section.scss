@@ -1,74 +1,101 @@
 .content3 {
     display: flex;
-    margin-top: 100px;
+    margin: 20px auto;
+    justify-content: space-between;
+
+
+    &__minorcontent {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: flex-end;
+        margin: 0;
+        gap: 20px;
+        color: #111111;
+    }
+
+    &__minorlist1,
+    &__minorlist2 {
+        font-weight: lighter;
+    }
 
     &__info {
         font-size: 30px;
         font-weight: bold;
-        max-width: 40%;
+        max-width: 60%;
         line-height: 45px;
     }
 
     &__minor1 {
         font-size: 15px;
-        font-weight: bold;
-        max-width: 50%;
         line-height: 30px;
         padding: 0;
-        margin-top: 5px;
-        margin-left: 20px;
     }
 
     &__minor2 {
         font-size: 15px;
-        font-weight: bold;
         max-width: 50%;
         line-height: 30px;
-        margin-top: 5px;
-        margin-left: 20px;
     }
 
 }
 
 .awards {
     display: flex;
-    background-color: aqua;
+    flex-direction: column;
     width: 100%;
-    height: 100vh;
+    margin-top: 3.125em;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
 
     &__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 100%;
+        min-height: 200px;
+        margin-top: 20px;
+        
+    }
+
+    &__minorcontainer2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         width: 100%;
+        height: 100%;
+        margin-left: 32.2%
+    }
+
+    &__minorcontainer3 {
+        width: 38%;
+        margin: auto;
+        margin-right: 5.438em;
+
     }
 
     &__name {
-        margin-left: 50px;
-        text-align: start;
+        width: 20%;
         font-size: 20px;
         font-weight: bold;
     }
 
     &__type {
-        text-align: start;
-        flex-grow: 1;
-        margin: 0 10px;
+        width: 20%;
+        font-weight: bold;
     }
 
-    &__product {
-        flex-grow: 1;
-        margin: 0 10px;
-        text-align: center;
+    &__minorcontainer {
+        width: 20%;
     }
 
     &__details {
-        flex-grow: 1;
-        margin: 0 10px;
-        width: 10px;
+        font-weight: lighter;
     }
 
     &__year {
-        flex-grow: 1;
-        margin: 0 10px;
-        text-align: end;
+        font-weight: bold;
     }
+
 
 }
