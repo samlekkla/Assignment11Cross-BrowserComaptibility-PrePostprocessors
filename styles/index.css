@@ -113,6 +113,8 @@ header {
   min-height: 90vh;
   background: white;
   margin: 0;
+  max-width: 1110px;
+  width: 100%;
 }
 .main__heading {
   -webkit-box-pack: start;
@@ -317,4 +319,6 @@ header {
 
 body {
   font-family: "mulish";
+  max-width: 1110px;
+  width: 100%;
 }
