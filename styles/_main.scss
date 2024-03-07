@@ -4,12 +4,10 @@
     flex-direction: column;
     min-height: 90vh;
     background: white;
-    margin: 0;
+    margin: auto;
     max-width: 1110px;
     width: 100%;
-    
-
-
+  
     &__heading {
         justify-content: flex-start;
         text-align: start;
@@ -20,18 +18,16 @@
 
     &__info {
         font-size: 50px;
-        justify-content: start;
-        padding-top: 20px;
-        max-width: 50%;
+        max-width: 700px;
+        width: 100%;
         font-weight: bold;
         line-height: 70px;
     }
 
     &__info2 {
+        display: flex;
         font-size: 17px;
-        margin-right: 20%;
-        text-align: end;
-        margin-bottom: 20px;
+        justify-content: flex-end;
     }
 
     &__info2 {
