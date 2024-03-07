@@ -1,13 +1,15 @@
 .main {
+    display: flex;
     justify-content: center;
+    flex-direction: column;
     min-height: 90vh;
     background: white;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin: 0;
+    
 
 
     &__heading {
-        margin-top: 5%;
+        justify-content: flex-start;
         text-align: start;
         color: #4A4FF2;
         font-size: 20px;

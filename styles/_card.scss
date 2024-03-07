@@ -15,14 +15,15 @@
 }
 
 .grid__container1 {
+    background-color: aqua;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1fr 1fr 1fr);
     column-gap: auto;
-    width: 20px;
+    width: 100%;
+    max-width: 1110px;
+    align-items: center;
+    justify-content: center;
     
 }
 
-.grid_element img {
-    width: auto;
-    height: auto;
-}
