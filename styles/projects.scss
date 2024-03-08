@@ -1,0 +1,15 @@
+@use 'fonts';
+
+@import 'card';
+@import 'header';
+@import 'main';
+@import 'section';
+@import 'footer';
+
+
+body {
+    font-family: 'mulish';
+    max-width: 1110px;
+    width: 100%;
+    margin: auto;
+}
