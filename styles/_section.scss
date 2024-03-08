@@ -147,3 +147,55 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
+.contact__container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    height: auto;
+    width: 100%;
+    
+
+}
+
+.contact__infocontainer {
+    max-width: 580px;
+    width: 100%;
+}
+
+.contact__infocontainer2 {
+    max-width: 445px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.contact__form {
+    display: flex;    
+    align-self: flex-end;
+    max-width: 475px;
+    width: 100%;
+    line-height: 30px;
+}
+
+.contact__form input {
+    border: none; 
+}
+
+
+.contact__form textarea {
+    border: none; 
+}
+
+.contact__form button {
+    color: white;
+    background-color: #4A4FF2;
+    height: 50px;
+    width: 125px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact__form button:hover {
+    background-color: #3647D7; 
+}
