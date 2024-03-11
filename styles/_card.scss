@@ -16,12 +16,10 @@
 
 .grid__container1 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 5, max-content;
-    grid-gap: 0;
-    
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(32, 1fr);
+  
+  
 }
 
-.grid__container1 img {
-    grid-gap: 0;
-}
+
