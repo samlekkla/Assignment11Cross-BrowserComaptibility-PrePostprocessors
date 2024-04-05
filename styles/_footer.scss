@@ -1,12 +1,15 @@
 footer {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
     min-height: 22px;
     margin: 0;
     margin-bottom: 20px;
     margin-top: 20px;
+    
 }
+
 
 .nav2 {
 
@@ -33,10 +36,17 @@ footer {
             color: #4A4FF2
         }
     }
+
+    &__list2 {
+        display: flex;
+        gap: 1rem;
+        margin-right: 20px;
+    }
 }
 
-.social img {
-    margin-top: 8.7px;
-    margin-right: 20px;
+.social {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
 }
 
