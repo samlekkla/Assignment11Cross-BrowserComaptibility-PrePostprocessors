@@ -94,3 +94,10 @@ img {
     grid-column: 7 / 10;
     grid-row: 27 / 33;
 }
+
+.projects__container3 {
+    display: grid;
+    grid-template-columns: repeat(3);
+    grid-template-rows: repeat(1);
+    gap: 2rem;
+}
